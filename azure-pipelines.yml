@@ -11,9 +11,9 @@ variables:
   wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
   dotnetSdkVersion: '6.x'
 
+lockBehavior: runLatest
 stages:
 - stage: A
-  lockBehavior: sequential
   jobs:
   - job: Job
     steps:
